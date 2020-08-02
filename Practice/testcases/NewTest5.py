@@ -19,7 +19,7 @@ class NewTest5(unittest.TestCase):
         driver.execute_script("arguments[0].click();",deposits)
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
         #driver.find_element_by_xpath("//li[contains(text(),'Deposits')]").click()
-        print("Test Pass")
+        print("Test Pass successfully")
         pass
 
 
